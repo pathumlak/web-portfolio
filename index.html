@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="title.webp">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pathum </title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link"
+          >Pathum</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#home">Home</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home -->
+
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Pathum lakshan.</span></h1>
+        <h2 class="about__role">A FullStack Developer.</h2>
+        <p class="about__desc">
+          I am Pathum Laksahan, a dedicated enthusiast of software engineering currently pursuing my degree in the field. My fervor lies in becoming a proficient full-stack developer, driven by an insatiable appetite for learning. With two years of hands-on experience in various development domains, including object-oriented programming (OOP) design patterns and advanced database management, I have honed my skills to craft innovative solutions. Notably, I spearheaded the creation of a cutting-edge biometric fingerprint-based attendance system tailored for campus use, showcasing my adeptness in integrating emerging technologies. My journey also encompasses the realm of Internet of Things (IoT), further enriching my expertise. If you seek someone poised to deliver exceptional results, I am the candidate to surpass your expectations.
+        </p>
+
+        <div class="about__contact center">
+          <a href="">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href=""
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href=""
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <section class="home" id="home">
+        <div class="home-container">
+          <img src="my.jpg" alt="" width="350px" height="350px" class="img1">
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Fingerprint system</h3>
+            <p class="project__description">
+              I led the development team in conceptualizing, designing, and implementing a state-of-the-art Biometric Based Attendance System tailored specifically for campus environments. Leveraging cutting-edge biometric technology, the system offers seamless and secure attendance tracking, eliminating traditional paper-based methods and significantly enhancing efficiency. Our solution not only streamlines administrative tasks but also ensures accurate and reliable attendance records, fostering a more organized and productive learning environment.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Arduino</li>
+              <li class="project__stack-item">HTML/css/js</li>
+              <li class="project__stack-item">PHP</li>
+            </ul>
+
+            <a
+              href=""
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href=""
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Weather app</h3>
+            <p class="project__description">
+              
+ Weather App Development with Python and API Integration
+
+In this project, I embarked on creating a dynamic Weather App using Python, coupled with API integration. By harnessing the power of APIs, specifically weather data APIs, I engineered a robust and user-friendly application that provides real-time weather information with precision and reliability. Users can effortlessly access current weather conditions, forecasts, and additional meteorological data for any location worldwide, enhancing their ability to plan activities and stay informed. This project not only showcased my proficiency in Python programming but also demonstrated my adeptness in leveraging external resources to enrich application functionality and user experience.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">API</li>
+              <li class="project__stack-item">I.O socket </li>
+            </ul>
+
+            <a
+              href=""
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href=""
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Online Shoe Shopping Center</h3>
+            <p class="project__description">
+              For this project, I undertook the development of an Online Shoe Shopping Center utilizing ReactJS, alongside integration with an external JSON database. Leveraging the power and flexibility of ReactJS, I crafted a dynamic and intuitive user interface that seamlessly navigates through a diverse selection of shoes. By integrating with a JSON database, I implemented efficient data retrieval and management, allowing users to effortlessly browse, search, and filter through the inventory using key indexing. This project not only showcased my proficiency in ReactJS development but also highlighted my ability to leverage external data sources to create engaging and functional web applications.
+
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React JS</li>
+              <li class="project__stack-item">Json</li>
+              <li class="project__stack-item">reactdom/reacthook</li>
+            </ul>
+
+            <a
+              href=""
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href=""
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Responsive Web Pages Development in Various Languages</h3>
+            <p class="project__description">
+              In this project, I ventured into developing responsive web pages across a spectrum of programming languages, including HTML, Python, JavaScript, PHP, and Java. Each web page serves a distinct purpose, catering to different user needs and demonstrating proficiency in multiple programming paradigms.
+
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML/CSS/JS</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">PHP</li>
+            </ul>
+
+            <a
+              href=""
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href=""
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">java</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Redux</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Material UI</li>
+          <li class="skills__list-item btn btn--plain">JSON</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Flutter</li>
+        </ul>
+      </section>
+
+
+</section>
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:pathumbro248@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href=""
+        class="link footer__link"
+      >
+        Created  By &copy; <span>Pathum</span>
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
